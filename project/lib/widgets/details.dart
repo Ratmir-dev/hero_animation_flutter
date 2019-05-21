@@ -40,6 +40,8 @@ class DetailsView extends StatelessWidget {
                 child: Text(
                   'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris rhoncus magna vitae dui convallis consequat. Fusce finibus, arcu eu vulputate pellentesque, quam metus efficitur lacus, vel ullamcorper erat erat vel velit. Sed id leo eu lorem maximus feugiat. Praesent a varius magna, a rhoncus diam. Aenean mattis urna mi, nec euismod risus vulputate at. Cras non ipsum posuere, dapibus massa eu, commodo ipsum. Vivamus ultricies nibh eu cursus ultrices. Mauris nec sodales diam. Curabitur ex justo, consequat maximus purus vitae, dictum rhoncus sem. Phasellus mollis quam sit amet dui dapibus, ut fermentum lectus dictum. Aliquam tempus maximus congue. Aliquam feugiat mauris mollis augue accumsan commodo. Duis vel mattis sapien, quis vestibulum metus. Proin commodo ac massa vitae commodo. Etiam eu consectetur erat, rutrum elementum magna. Phasellus facilisis ipsum sed metus aliquet ultrices.',
                   textAlign: TextAlign.justify,
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 15,
                   style: TextStyle(
                     fontSize: 14.0,
                     color: Color.fromARGB(255, 98, 98, 98),
